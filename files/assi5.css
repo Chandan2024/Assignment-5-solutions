@@ -1,0 +1,109 @@
+body {
+    background-color: #61122f;
+    padding: 0;
+    margin: 0;
+}
+
+#header {
+    display: flex;
+    background-color: #f6b319;
+    height: 200px;
+    margin-left: 0%;
+}
+
+h1 {
+    color: #557c3e;
+    margin-left: 20px;
+}
+
+#logo {
+    margin-left: 5%;
+}
+
+#header1 {
+    display: flex;
+    list-style: none;
+    font-size: 30px;
+    justify-content: space-evenly;
+    margin-left: 400px;
+    gap: 35px;
+}
+
+#header-text {
+    color: #61122f;
+}
+#header-text:hover{
+    background-color: white;
+}
+
+#inner {
+    height: 800px;
+    width: 1050px;
+    padding-left: 220px;
+    padding-top: 20px;
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#imgmain {
+    display: flex;
+    gap: 4rem;
+    padding-left: 220px;
+    padding-top: 20px;
+}
+
+#sectionimg {
+    display: flex;
+    border: 2px solid black;
+    border-style: groove;
+    width: 300px;
+    height: 300px;
+}
+
+#sectionimg:hover {
+    border: 3px solid wheat;
+    border-style: dotted;
+}
+
+#section-name {
+    display: flex;
+    color: white;
+    font-size: 30px;
+    gap: 4rem;
+    display: flex;
+    gap: 18rem;
+    padding-left: 340px;
+    padding-top: -2px;
+    list-style: none;
+}
+#img-text{
+    color: white;
+}
+#foot-text{
+    list-style: none;
+    color: white;
+}
+#footer{
+    background-color: rgb(49, 31, 31);
+    display: flex;
+    gap: 12rem;
+    padding-left: 50px;
+}
+#copyright{
+    padding-top: 10px;
+padding-left: 55px;
+}
+#fun{
+    color: rgb(67, 216, 232);
+    list-style: none;
+}
+
+#header-text:active{
+    background-color:rgb(71, 71, 148);
+}
+#header-text::after{
+    background-color:rgb(71, 71, 148);
+}
